@@ -1,0 +1,20 @@
+/* TEST CODE*/
+body {
+  // background-color: #000;
+  span {
+    color: #000fff;
+  }
+  background: url('@img/fon.png') 0 0 no-repeat;
+}
+
+@media (max-windth: 768px) {
+  span {
+    font-size: 20px;
+  }
+}
+
+@media (max-windth: 768px) {
+  span {
+    border-color: green;
+  }
+}
